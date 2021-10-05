@@ -1,12 +1,11 @@
 package com.company;
 
-public class Operator extends Employee{
-    public String getJobTitle()
-    {
+public class Operator extends Employee {
+    public String getJobTitle() {
         return "Operator";
     }
-    public double calcSalary()
-    {
+
+    public double calcSalary() {
         return salary;
     }
 }

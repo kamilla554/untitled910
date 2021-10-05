@@ -7,6 +7,6 @@ public class TopManager extends Employee {
     }
     public double calcSalary()
     {
-        return salary*2.5;//???
+        return salary*2.5*company.employeeIncome();//???
     }
 }
